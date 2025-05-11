@@ -5,8 +5,8 @@ A sleek and simple weather application built using **React** and **Material UI**
 ---
 
 ## 📸 Preview
-![alt text](../image.png)
 
+![alt text](image.png)
 
 ---
 
@@ -48,15 +48,17 @@ A sleek and simple weather application built using **React** and **Material UI**
     ```
 ## 🧪 Folder Structure
     ```bash
-    src/
-│
-├── WeatherApp.js       # Main component
-├── SearchBox.js        # City search input and submit
-├── InfoBox.js          # Weather information display
-├── WeatherApp.css
-├── SearchBox.css
-├── infoBox.css
-```
+        src/
+    │
+    ├── WeatherApp.js       # Main component
+    ├── SearchBox.js        # City search input and submit
+    ├── InfoBox.js          # Weather information display
+    ├── WeatherApp.css
+    ├── SearchBox.css
+    ├── infoBox.css
+    ```
+
+
 ## 📌 Notes
 Currently uses a hardcoded API key (49a01e2524127f2d6bd278de8f697e22) — for production, always use environment variables.
 
