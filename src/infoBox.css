@@ -1,0 +1,13 @@
+.Info {
+    color: white !important;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px !important;
+}
+
+.cardContainer p {
+    margin: 10px;
+}
