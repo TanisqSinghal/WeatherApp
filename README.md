@@ -1,12 +1,65 @@
-# React + Vite
+# 🌤️ Weather App by Tanishak
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and simple weather application built using **React** and **Material UI**, leveraging the **OpenWeatherMap API** to fetch real-time weather data based on city input.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
+![alt text](../image.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 🔍 Search for any city to get live weather data
+- 🌡️ Displays current temperature, min/max temps, humidity, and "feels like"
+- ☀️ Dynamic icons and background images based on weather conditions
+- ⚛️ Built with React functional components and hooks
+- 🎨 Stylish UI powered by Material UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Material UI
+- **API**: [OpenWeatherMap](https://openweathermap.org/api)
+
+---
+
+## 🧰 Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
+   ```
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
+3. **Get your OpenWeatherMap API key**
+    ```bash
+    API_KEY=your_api_key_here
+    ```
+4. **Run the app**
+    ```bash
+    npm start
+    ```
+## 🧪 Folder Structure
+    ```bash
+    src/
+│
+├── WeatherApp.js       # Main component
+├── SearchBox.js        # City search input and submit
+├── InfoBox.js          # Weather information display
+├── WeatherApp.css
+├── SearchBox.css
+├── infoBox.css
+```
+## 📌 Notes
+Currently uses a hardcoded API key (49a01e2524127f2d6bd278de8f697e22) — for production, always use environment variables.
+
+Default city shown on load is London.
+
+Error handling is basic and could be improved (e.g., network failures, invalid responses).
